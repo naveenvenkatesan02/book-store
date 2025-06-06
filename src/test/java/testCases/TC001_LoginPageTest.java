@@ -20,7 +20,7 @@ public class TC001_LoginPageTest extends BaseClasss{
 		LoginPage lp = new LoginPage(driver);
 		String headerName = lp.getLoginPageHeader();
 		
-		Assert.assertEquals(headerName, "Login in Book Store");
+		Assert.assertEquals(headerName, "Login in Book Store!");
 		} catch (Exception e) {
 			logger.error("Test Failed..." + e);
 		}
